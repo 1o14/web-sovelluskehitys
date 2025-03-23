@@ -1,0 +1,103 @@
+/* Gothic-teema */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; /* Selkeä moderni fontti */
+    background-color: #0a0a0a; /* Täysin musta tausta */
+    color: #d90429; /* Verenpunainen teksti */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #220000, #550000);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(217, 4, 41, 0.8);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif; /* Klassinen Gothic-fontti */
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.8);
+}
+
+/* Linkin muotoilu */
+a {
+    color: #d90429;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #222;
+    display: inline-block;
+    transition: 0.3s;
+    box-shadow: 0px 0px 8px rgba(217, 4, 41, 0.6);
+}
+
+a:hover {
+    background-color: #d90429;
+    color: #fff;
+    box-shadow: 0px 0px 15px rgba(217, 4, 41, 0.9);
+}
+
+/* Kuvan muotoilu */
+img {
+    border: 4px solid #d90429;
+    border-radius: 20px;
+    width: 350px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 5px 20px rgba(217, 4, 41, 0.7);
+}
+
+/* Taulukon muotoilu */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(217, 4, 41, 0.7);
+}
+
+table, th, td {
+    border: 2px solid #d90429;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+table tr:nth-child(even) {
+    background-color: #222;
+}
+
+/* Listan muotoilu */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #222;
+    margin: 10px auto;
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0px 0px 10px rgba(217, 4, 41, 0.5);
+}
+
+ul li:hover {
+    background-color: #d90429;
+    color: white;
+    box-shadow: 0px 0px 15px rgba(217, 4, 41, 0.9);
+}
