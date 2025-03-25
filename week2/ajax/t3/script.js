@@ -1,7 +1,7 @@
 // Funktio virheiden käsittelyyn
 async function makeRequest() {
     const url = 'https://reqres.in/api/unknown/23'; // Ei-olemassa oleva URL
-    const method = 'GET'; // Voit kokeilla myös POST, PUT, DELETE tässä
+    const method = 'GET'; // Tässä pystyy kokeilla myös POST, PUT, DELETE 
 
     try {
         // Lähetetään pyyntö Fetch API:lla
